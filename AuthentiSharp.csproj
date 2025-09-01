@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>AuthentiSharp.tolzy</PackageId>
+		<Description>Interop for validating Authenticode Certificates in .NET</Description>
+		<RepositoryUrl>https://github.com/tolzyfrolz/AuthentiSharp</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Version>2.0.1</Version>
+		<!-- Only supported on Windows OS -->
+		<RuntimeIdentifiers>win-x64;win-x86;win-arm64</RuntimeIdentifiers>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<None Include="LICENSE" Pack="true" PackagePath=""/>
+		<None Include="README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
+
+</Project>
